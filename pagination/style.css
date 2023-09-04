@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&family=Rouge+Script&display=swap');
+
+body{
+  background-color: #f5f5f5;
+}
+
+p{
+  color: grey;
+  text-align: center;
+  max-height: 50px;
+}
+
+button{
+  width: 35px;
+  height: 35px;
+  border: 1px solid #4CAF50;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  }
+
+  .pagination-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px ;
+    text-decoration: none;
+  }
+  
+  .pagination a:hover{
+    cursor: pointer;
+  }
+  
+  
+  .active {
+    text-align: center;
+    color: #4CAF50 !important;
+    font-size: 1.5rem;
+  }
+  
+  /* .pagination a:hover:not(.active) {background-color: #ddd;} */
+
+  .image-container{
+    overflow: hidden;
+    color: #fff;
+    /* height: 40%; */
+    width: 17%;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 20px;
+    box-shadow: 0 3px 60px rgba(57,73,76,0.35);
+    transition:.5s ease all;
+    margin: 0.25rem;
+  }
+
+  .image-container:hover{
+    transform: scale(1.01);
+    
+    cursor: pointer;
+  }
+
+  img{
+    border: 5px;
+    border-radius: 10px;
+  }
+
+  .pagination-heading{
+    text-align: center;
+    font-size: 3rem;
+    color: grey;
+    font-family: 'Rouge Script', cursive;
+  }
+
+  .d-none{
+    display: none;
+  }
+
+  .images{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  img{
+    width:100%;
+    height: 70%;
+  }
