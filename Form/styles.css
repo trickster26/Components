@@ -4,23 +4,34 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+
+h2{
+    font-family:'Lily Script One', cursive;
+}
+
 .form{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #myForm{
     position: relative;
-    margin-top:  20%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    background-color: #FFF;
-    padding: 40px;
-    box-sizing: border-box;
-    border: 1px solid rgba(0,0,0,.1);
-    /* box-shadow: 0 30px 20px rgba(0,0,0,.2); */
-    box-shadow: 0 3px 60px rgba(57,73,76,0.35);
+	margin-top:  5%;
+    /* top: 20%; */
+	/* left: 10%; */
+	/* transform: translate(-50%, -50%); */
+	width: 400px;
+	background-color: #FFF;
+	padding: 40px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.1);
+	/* box-shadow: 0 30px 20px rgba(0,0,0,.2); */
+	box-shadow: 0 3px 60px rgba(57,73,76,0.35);
+}
+
+#json-data p, #show-data p{
+    overflow-wrap: break-word;
 }
 
 i{
@@ -92,22 +103,22 @@ button:hover{
 }
 
 #logo {
-    margin:0 auto;
-    width:200px;
-    font-family:'Lily Script One', cursive;
-    font-size:60px;
-    font-weight:bold;
-    text-align:center;
-    color:lightgray;
-    -webkit-transition:0.2s ease all;
-       -moz-transition:0.2s ease all;
-        -ms-transition:0.2s ease all;
-         -o-transition:0.2s ease all;
-            transition:0.2s ease all;
+	margin:0 auto;
+	width:200px;
+	font-family:'Lily Script One', cursive;
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	color:lightgray;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
 }
 
 #logo:hover {
-    color:cornflowerblue;
+	color:cornflowerblue;
 }
 
 .display{
@@ -117,5 +128,9 @@ button:hover{
 
 #show-data, #json-data{
     text-align: center;
-    width: 50%;
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 50px;
+    color: grey;
 }
+
