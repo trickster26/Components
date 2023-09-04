@@ -1,7 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+}
+
 img {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     object-fit: cover;
     background: #dfdfdf;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
