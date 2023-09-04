@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21/08/23</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="errorMessages"></div>
+    <section class="form">
+        <form id="myForm">
+
+            <h3 id="logo">Log In</h3>
+            <!-- <label for="name">Name: </label> -->
+            <div class="outline" style="
+            border: 1px;
+            border-bottom: 1px solid grey">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="name" name="name" placeholder="John Doe" >
+            </div>
+            <div id="error-name" style="color: red;"></div>
+            <br>
+
+            <!-- <label for="email">Email: </label> -->
+            <div class="outline" style="
+            border: 1px;
+            border-bottom: 1px solid grey">
+                <i class="fa-regular fa-envelope"></i>
+                <input id="email" name="email" placeholder="john@example.com" >
+                
+            </div>
+            <div id="error-email" style="color: red;"></div>
+            <br>
+
+            <div class="outline" style="
+            border: 1px;
+            border-bottom: 1px solid grey">
+                <i class="fa-solid fa-mobile"></i>
+                <input  id="phone" name="phone" placeholder="9876543201" >
+                
+            </div>
+            <div id="error-phone" style="color: red;"></div>
+            <br>
+
+            <div class="outline-file">
+                <i class="fa-regular fa-file"></i>
+                <input id="file" type="file" name="file" >
+                
+            </div>
+            <div id="error-file" style="color: red;"></div>
+            <br>
+
+            <!-- <label for="password">Password: </label> -->
+            <div class="outline" style="
+            border: 1px;
+            border-bottom: 1px solid grey">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" name="password" placeholder="********" >
+                
+            </div>
+            <div id="error-password" style="color: red;"></div>
+            <br>
+            <div class="center">
+                <button type="submit">Submit</button>
+            </div>
+            
+        </form>
+        
+    </section>
+    <div class="display">
+        <div id="show-data"></div>
+        <div id="json-data"></div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;500&family=Inter:wght@200&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+#myForm{
+    position: relative;
+    margin-top:  20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #FFF;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1);
+    /* box-shadow: 0 30px 20px rgba(0,0,0,.2); */
+    box-shadow: 0 3px 60px rgba(57,73,76,0.35);
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+input{
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.outline:hover{
+    border: 1px solid grey;
+    border-radius: 300px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.outline{
+    border: 1px;
+    border-bottom: 1px solid grey;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.outline-file{
+    display: flex;
+    border: 1px;
+    border-bottom: 1px solid grey;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.outline-file:hover{
+    border: 1px solid grey;
+    border-radius: 300px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.outline-file > input {
+    margin-left: 5px;
+}
+
+button{
+    background:white ;
+    color : grey;
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 150px;
+}
+
+button:hover{
+    background: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.center{
+    text-align: center;
+}
+
+#logo {
+    margin:0 auto;
+    width:200px;
+    font-family:'Lily Script One', cursive;
+    font-size:60px;
+    font-weight:bold;
+    text-align:center;
+    color:lightgray;
+    -webkit-transition:0.2s ease all;
+       -moz-transition:0.2s ease all;
+        -ms-transition:0.2s ease all;
+         -o-transition:0.2s ease all;
+            transition:0.2s ease all;
+}
+
+#logo:hover {
+    color:cornflowerblue;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+#show-data, #json-data{
+    text-align: center;
+    width: 50%;
+}
